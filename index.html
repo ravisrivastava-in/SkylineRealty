@@ -97,6 +97,7 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="property.css">
 
     <!-- Google Verification -->
     <meta name="google-site-verification" content="QsgJ4SH7nM5ECY08eMzJt1dPDSvBwuAxuWxsB-CUWdQ" />
@@ -137,8 +138,18 @@
 
                      <!-- Logo -->
                    <a class="nav-brand" href="index.html" style="padding: 10px 15px; display: flex; align-items: center;">
-                        <img src="img/core-img/SkyLineLogo.png" alt="Skyline Realty Logo" style="max-height: 60px; width: auto; height: auto; display: block;">
+                        <img src="img/core-img/skyoriginal.png" alt="Skyline Realty Logo" style="max-height: 100px; width: auto; height: auto; display: block;">
                     </a>
+                    <!-- <a class="nav-brand" href="index.html" style="padding: 10px 15px; display: flex; align-items: center;">
+                    <img src="img/core-img/skyoriginal.png" alt="Skyline Realty Logo" 
+                         style="max-height: 60px; width: auto; height: auto; display: block;
+                                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+                                border-radius: 8px;
+                                transition: transform 0.3s ease, box-shadow 0.3s ease;"
+                                onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 8px 20px rgba(0,0,0,0.2)'"
+                                onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 12px rgba(0,0,0,0.15)'">
+                    </a> -->
+
 
 
                     <!-- Navbar Toggler -->
@@ -244,36 +255,72 @@
     <section class="hero-area">
         <div class="hero-slides owl-carousel">
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/sec29.webp);">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/plots/gaur-yamuna-city_4k.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Find your Home</h2>
+                                <!-- <h2 data-animation="fadeInUp" data-delay="100ms"></h2> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/yamuna.jpg);">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/plots/eldeco_4k.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Find your dream Property</h2>
+                                <!-- <h2 data-animation="fadeInUp" data-delay="100ms"></h2> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Single Hero Slide -->
-            <div class="single-hero-slide bg-img" style="background-image: url(img/bg-img/sec29.webp);">
+            <div class="single-hero-slide bg-img" style="background-image: url(img/plots/ats_4k.jpg);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
                             <div class="hero-slides-content">
-                                <h2 data-animation="fadeInUp" data-delay="100ms">Find your perfect house</h2>
+                                <!-- <h2 data-animation="fadeInUp" data-delay="100ms"></h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/plots/eldeco_4k.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <!-- <h2 data-animation="fadeInUp" data-delay="100ms"></h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/plots/jewar_airport_4k.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <!-- <h2 data-animation="fadeInUp" data-delay="100ms"></h2> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              <!-- Single Hero Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(img/plots/sector25.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="hero-slides-content">
+                                <!-- <h2 data-animation="fadeInUp" data-delay="100ms"></h2> -->
                             </div>
                         </div>
                     </div>
@@ -285,75 +332,7 @@
 
     <!-- ##### Advance Search Area Start ##### -->
 <!-- ##### Advance Search Area Start ##### -->
-<div class="south-search-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="advanced-search-form">
-                    <!-- Search Title -->
-                    <div class="search-title">
-                        <p>Search for your home</p>
-                    </div>
-                    <!-- Search Form -->
-                    <form action="#" method="post" id="advanceSearch">
-                        <div class="row">
 
-                            <div class="col-12 col-md-4 col-lg-3">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" name="keyword" placeholder="Keyword">
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-4 col-lg-3">
-                                <div class="form-group">
-                                    <select class="form-control" id="cities" name="city">
-                                        <option value="">All Cities</option>
-                                        <option>Noida</option>
-                                        <option>Delhi</option>
-                                        <option>Greater Noida</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-4 col-lg-3">
-                                <div class="form-group">
-                                    <select class="form-control" id="catagories" name="category">
-                                        <option value="">All Categories</option>
-                                        <option>Apartment</option>
-                                        <option>Option</option>
-                                        <option>Farm</option>
-                                        <option>House</option>
-                                        <option>Store</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-4 col-lg-3">
-                                <div class="form-group">
-                                    <select class="form-control" id="offers" name="offer">
-                                        <option value="">All Offers</option>
-                                        <option>75% OFF</option>
-                                        <option>50% OFF</option>
-                                        <option>25% OFF</option>
-                                        <option>10% OFF</option>
-                                    </select>
-                                </div>
-                            </div>
-
-                            <!-- Centered Search Button -->
-                            <div class="col-12" style="display: flex; justify-content: center;">
-                                <div class="form-group mb-0">
-                                    <button type="submit" class="btn south-btn">Search</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- ##### Advance Search Area End ##### -->
 
 <!-- JavaScript for "at least one field" logic -->
@@ -411,33 +390,34 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                 <div class="col-12">
                     <div class="section-heading wow fadeInUp">
                         <h2>Featured Properties</h2>
-                        <p>Under Development Updated Soon...</p>
+                        <p>SkylineRealty deals in premium residential and commercial properties.</p>
                     </div>
                 </div>
             </div>
 
             <div class="row">
 
-                <!-- Single Featured Property -->
+                <!-- Single Featured Property yamuna-->
+                 <a href="gaur-yamuna-city.html" target="_blank">
                 <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="100ms">
                         <!-- Property Thumbnail -->
                         <div class="property-thumb">
-                            <img src="img/bg-img/yamuna.jpg" alt="">
+                            <img src="img/plots/gaur-yamuna-city.jpg" alt="">
 
-                            <div class="tag">
+                            <!-- <div class="tag">
                                 <span>For Sale</span>
-                            </div>
-                            <div class="list-price">
+                            </div> -->
+                            <!-- <div class="list-price">
                                 <p>&#8377;xxx</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Property Content -->
                         <div class="property-content">
-                            <h5>Villa in YEIDA</h5>
-                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA</p>
-                            <p>Under development updated soon...</p>
-                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            <h5>Gaur Yamuna City</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Sector 19, YEIDA</p>
+                            <p>Gaur Yamuna City in YEIDA offers premium residential and commercial plots with modern planning, parks, essential amenities, and proximity to major expressways, making it an attractive lifestyle and investment destination for families and professionals.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
                                 <div class="new-tag">
                                     <img src="img/icons/new.png" alt="">
                                 </div>
@@ -453,31 +433,32 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                     <img src="img/icons/space.png" alt="">
                                     <span>120 sq ft</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div></a>
                 </div>
 
-                <!-- Single Featured Property -->
+                <!-- Single Featured Property  ats-->
+                 <a href="ats.html" target="_blank">
                 <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="200ms">
                         <!-- Property Thumbnail -->
                         <div class="property-thumb">
-                            <img src="img/bg-img/sec29.webp" alt="">
+                            <img src="img/plots/ats.jpg" alt="">
 
-                            <div class="tag">
+                            <!-- <div class="tag">
                                 <span>For Sale</span>
                             </div>
                             <div class="list-price">
                                 <p>&#8377;xxx</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Property Content -->
                         <div class="property-content">
-                            <h5>Town House in YEIDA</h5>
-                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA</p>
-                            <p>Under development updated soon...</p>
-                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            <h5>ATS</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Sector 22D, YEIDA</p>
+                            <p>ATS presents a new residential project in YEIDA with high-quality construction, green spaces, and reliable amenities. This community focuses on security, modern facilities, and easy connectivity, offering comfortable and sustainable living for families and investors alike.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
                                 <div class="new-tag">
                                     <img src="img/icons/new.png" alt="">
                                 </div>
@@ -493,31 +474,32 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                     <img src="img/icons/space.png" alt="">
                                     <span>120 sq ft</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div></a>
                 </div>
 
-                <!-- Single Featured Property -->
+                <!-- Single Featured Property  ace-->
+                  <a href="ace.html" target="_blank">
                 <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="300ms">
                         <!-- Property Thumbnail -->
                         <div class="property-thumb">
-                            <img src="img/bg-img/yamuna.jpg" alt="">
+                            <img src="img/plots/ace.webp" alt="">
 
-                            <div class="tag">
+                            <!-- <div class="tag">
                                 <span>For Sale</span>
                             </div>
                             <div class="list-price">
                                 <p>&#8377;xxx</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Property Content -->
                         <div class="property-content">
-                            <h5>Town House in YEIDA</h5>
-                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA</p>
-                            <p>Under development updated soon...</p>
-                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            <h5>ACE</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Sector 22A/22D, YEIDA</p>
+                            <p>ACE’s development in YEIDA showcases eco-friendly apartments, spacious layouts, and lifestyle amenities. Thoughtfully planned for modern families, ACE provides an inviting environment, green surroundings, and convenient accessibility to essential facilities.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
                                 <div class="new-tag">
                                     <img src="img/icons/new.png" alt="">
                                 </div>
@@ -533,31 +515,32 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                     <img src="img/icons/space.png" alt="">
                                     <span>120 sq ft</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div></a>
                 </div>
 
-                <!-- Single Featured Property -->
+                <!-- Single Featured Property eldeco-->
+                  <a href="eldeco.html" target="_blank">
                 <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="400ms">
                         <!-- Property Thumbnail -->
                         <div class="property-thumb">
-                            <img src="img/bg-img/sec29.webp" alt="">
+                            <img src="img/plots/eldeco.png" alt="">
 
-                            <div class="tag">
+                            <!-- <div class="tag">
                                 <span>For Sale</span>
                             </div>
                             <div class="list-price">
                                 <p>&#8377;xxx</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Property Content -->
                         <div class="property-content">
-                            <h5>Villa in YEIDA</h5>
-                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA</p>
-                            <p>Under development updated soon...</p>
-                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            <h5>ELDECO</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">Sector 22D, YEIDA</p>
+                            <p>ELDECO launches its latest project in YEIDA, featuring well-planned apartments, open spaces, and comprehensive infrastructure. With safety, comfort, and community at its core, ELDECO ensures balanced living for homebuyers in a growing city location.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
                                 <div class="new-tag">
                                     <img src="img/icons/new.png" alt="">
                                 </div>
@@ -573,31 +556,32 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                     <img src="img/icons/space.png" alt="">
                                     <span>120 sq ft</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                    </div></a>
                 </div>
 
-                <!-- Single Featured Property -->
+                <!-- Single Featured Property sec1820-->
+                  <a href="sector18-20.html" target="_blank">
                 <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="500ms">
                         <!-- Property Thumbnail -->
                         <div class="property-thumb">
                             <img src="img/bg-img/yamuna.jpg" alt="">
 
-                            <div class="tag">
+                            <!-- <div class="tag">
                                 <span>For Sale</span>
                             </div>
                             <div class="list-price">
                                 <p>&#8377;xxx</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Property Content -->
                         <div class="property-content">
-                            <h5>Town House in YEIDA</h5>
-                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA</p>
-                            <p>Under development updated soon...</p>
-                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            <h5>Sectors - 18 & 20</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA, Greater Noida</p>
+                            <p>YEIDA’s Sectors 18 and 20 are under development, providing residential and mixed-use plots, landscaped greens, and modern infrastructure. These sectors attract both end-users and investors seeking balanced, well-connected, and secure urban growth prospects.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
                                 <div class="new-tag">
                                     <img src="img/icons/new.png" alt="">
                                 </div>
@@ -613,31 +597,33 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                     <img src="img/icons/space.png" alt="">
                                     <span>120 sq ft</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                    </div>
+                        
+                    </div></a>
                 </div>
 
-                <!-- Single Featured Property -->
+                <!-- Single Featured Property 21-->
+                  <a href="sector21.html" target="_blank">
                 <div class="col-12 col-md-6 col-xl-4">
                     <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="600ms">
                         <!-- Property Thumbnail -->
                         <div class="property-thumb">
-                            <img src="img/bg-img/sec29.webp" alt="">
+                            <img src="img/plots/sector21.avif" alt="">
 
-                            <div class="tag">
+                            <!-- <div class="tag">
                                 <span>For Sale</span>
                             </div>
                             <div class="list-price">
                                 <p>&#8377;xxx</p>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- Property Content -->
                         <div class="property-content">
-                            <h5>Town House in YEIDA</h5>
-                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA</p>
-                            <p>Under development updated soon...</p>
-                            <div class="property-meta-data d-flex align-items-end justify-content-between">
+                            <h5>Sector 21 (Film City)</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA, Greater Noida</p>
+                            <p>Sector 21, future home of YEIDA’s Film City, offers strategic residential and commercial plots. This project enhances entertainment opportunities and cultural development, providing growth potential and creative energy to families, investors, and media professionals.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
                                 <div class="new-tag">
                                     <img src="img/icons/new.png" alt="">
                                 </div>
@@ -653,9 +639,132 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                     <img src="img/icons/space.png" alt="">
                                     <span>120 sq ft</span>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
+                    </div></a>
+                </div>
+                 <!-- Single Featured Property 29-->
+                  <a href="sector29.html" target="_blank">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="400ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/bg-img/sec29.webp" alt="">
+
+                            <!-- <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>&#8377;xxx</p>
+                            </div> -->
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Sector 29 (Industrial)</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA, Greater Noida</p>
+                            <p>Sector 29 in YEIDA is planned as a dedicated industrial destination with developed plots, robust infrastructure, and logistics advantages. Ideal for enterprises seeking growth, it supports manufacturing, warehousing, and business operations in a strategic location.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>120 sq ft</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div></a>
+                </div>
+
+                <!-- Single Featured Property -->
+                  <a href="gaur-yamuna-city.html" target="_blank">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="500ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/plots/sector 25.jpg" alt="">
+
+                            <!-- <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>&#8377;xxx</p>
+                            </div> -->
+                        </div>
+                        <!-- Property Content f1circuit-->
+                        <div class="property-content">
+                            <h5>Sector 25 (Buddha Circuit/F1)</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA, Greater Noida</p>
+                            <p>Sector 25 in YEIDA, near the Buddh International Circuit, offers dynamic residential and commercial plots. Its proximity to motorsports, excellent connectivity, and vibrant environment make it an exceptional location for fans, investors, and businesses, and more future opportunities</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>120 sq ft</span>
+                                </div>
+                            </div> -->
+                        </div></a>
+                        
                     </div>
+                </div>
+
+                <!-- Single Featured Property jewar -->
+                  <a href="jewer.html" target="_blank">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <div class="single-featured-property mb-50 wow fadeInUp" data-wow-delay="600ms">
+                        <!-- Property Thumbnail -->
+                        <div class="property-thumb">
+                            <img src="img/plots/jewar airport.png" alt="">
+
+                            <!-- <div class="tag">
+                                <span>For Sale</span>
+                            </div>
+                            <div class="list-price">
+                                <p>&#8377;xxx</p>
+                            </div> -->
+                        </div>
+                        <!-- Property Content -->
+                        <div class="property-content">
+                            <h5>Plots Near Jewar Airport</h5>
+                            <p class="location"><img src="img/icons/location.png" alt="">YEIDA, Jewar</p>
+                            <p>Plots near Jewar International Airport in YEIDA ensure high investment value, enhanced future potential, and accessible infrastructure. These plots provide seamless connectivity and growth opportunities for homebuyers, investors, and developers seeking premier NCR locations.</p>
+                            <!-- <div class="property-meta-data d-flex align-items-end justify-content-between">
+                                <div class="new-tag">
+                                    <img src="img/icons/new.png" alt="">
+                                </div>
+                                <div class="bathroom">
+                                    <img src="img/icons/bathtub.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="garage">
+                                    <img src="img/icons/garage.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="space">
+                                    <img src="img/icons/space.png" alt="">
+                                    <span>120 sq ft</span>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div></a>
                 </div>
             </div>
         </div>
@@ -890,7 +999,7 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                                 <h6>About Us</h6>
                             </div>
 
-                            <img src="img/bg-img/footer.jpg" alt="">
+                            <img src="img/core-img/skylinefooter.jpeg" alt="">
                             <div class="footer-logo my-4">
                                 <img src="logo/SkyLine Reality_1-cropped.svg" alt="">
                             </div>
@@ -1010,21 +1119,21 @@ document.getElementById('advanceSearch').addEventListener('submit', function(e) 
                         <div class="footer-widget-area mb-100">
                             <!-- Widget Title -->
                             <div class="widget-title">
-                                <h6>Featured Properties</h6>
+                                <h6>Our Office</h6>
                             </div>
                             <!-- Featured Properties Slides -->
                             <div class="featured-properties-slides owl-carousel">
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="img/core-img/office.jpeg" alt="" style="width:100%; height:320px; object-fit:cover; border-radius:12px; transition:transform 0.3s, box-shadow 0.3s;"></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="img/core-img/ofc.jpeg" alt="" style="width:100%; height:320px; object-fit:cover; border-radius:12px; transition:transform 0.3s, box-shadow 0.3s;"></a>
                                 </div>
                                 <!-- Single Slide -->
                                 <div class="single-featured-properties-slide">
-                                    <a href="#"><img src="img/bg-img/fea-product.jpg" alt=""></a>
+                                    <a href="#"><img src="img/core-img/offcc.jpeg" alt="" style="width:100%; height:320px; object-fit:cover; border-radius:12px; transition:transform 0.3s, box-shadow 0.3s;"></a>
                                 </div>
                             </div>
                         </div>
